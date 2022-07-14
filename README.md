@@ -11,7 +11,7 @@ Zero to Batch Module
 
     In Azure Portal, Open the subscription IAM, Which is the subscription you use for installation.
 
-    ![]([media/image1.png](https://github.com/pavithra-terawe/hpc-batch/blob/main/media/image1.png))
+    ![](https://github.com/pavithra-terawe/hpc-batch/blob/main/media/image1.png)
 
     On that IAM page, select "**Add role assignment**" under the Add tab.
 
