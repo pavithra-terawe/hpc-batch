@@ -15,7 +15,7 @@ Zero to Batch Module
 
     On that IAM page, select "**Add role assignment**" under the Add tab.
 
-    !<img src="https://learnmdfiles.blob.core.windows.net/files/image2.png" width="50%"/>
+    <img src="https://learnmdfiles.blob.core.windows.net/files/image2.png" width="50%"/>
 
     In the Role tab, select the "Contributor" role.
 
