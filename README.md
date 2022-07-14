@@ -28,6 +28,7 @@ Zero to Batch Module
     After selecting the member click "Review + assign".
 
     <img src="https://learnmdfiles.blob.core.windows.net/files/image5.png" width="50%"/><br/>
+    <br/>
 
     <img src="https://learnmdfiles.blob.core.windows.net/files/image6.png" width="50%"/>
 
