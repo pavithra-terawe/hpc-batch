@@ -23,7 +23,7 @@ Zero to Batch Module
 
     In the Member tab, click the "select members" option. Left side, The Select member\'s Panel will open. Select "Microsoft Azure Batch".
 
-    !<img src="https://learnmdfiles.blob.core.windows.net/files/image4.png" width="50%"/>
+    <img src="https://learnmdfiles.blob.core.windows.net/files/image4.png" width="50%"/>
 
     After selecting the member click "Review + assign".
 
