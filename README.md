@@ -11,7 +11,7 @@ Zero to Batch Module
 
     In Azure Portal, Open the subscription IAM, Which is the subscription you use for installation.
 
-    ![](https://github.com/pavithra-terawe/hpc-batch/blob/main/media/image1.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image1.png)
 
     On that IAM page, select "**Add role assignment**" under the Add tab.
 
@@ -19,21 +19,21 @@ Zero to Batch Module
 
     In the Role tab, select the "Contributor" role.
 
-    ![](media/image3.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image3.png)
 
     In the Member tab, click the "select members" option. Left side, The Select member\'s Panel will open. Select "Microsoft Azure Batch".
 
-    ![](media/image4.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image4.png)
 
     After selecting the member click "Review + assign".
 
-    ![](media/image5.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image5.png)
 
-    ![](media/image6.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image6.png)
 
     After Assignment success, you can see the Microsoft Azure batch app under the "Role Assignments" tab
 
-    ![](media/image7.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image7.png)
 
 2.  **Deploy Virtual Machine**
 
@@ -43,11 +43,11 @@ Zero to Batch Module
 
     Select you login details.
 
-    ![](media/image8.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image8.png)
 
     After login, the "Custom deployment" page will open. Select the Resource Group and Change the password if you need. Then create the deployment.
 
-    ![](media/image9.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image9.png)
 
 3.  **Connect VM**
 
@@ -55,9 +55,9 @@ Zero to Batch Module
 
     Example :ssh deployeradmin@52.149.120.180
 
-    ![](media/image10.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image10.png)
 
-    ![](media/image11.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image11.png)
 
 4.  AZ login
 
@@ -65,7 +65,7 @@ Zero to Batch Module
 
     Example: az login 
 
-    ![](media/image12.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image12.png)
 
  
 
@@ -73,7 +73,7 @@ Open the link in the browser and enter the code. 
 
  
 
-![IMG_256](media/image13.png)
+![IMG_256](https://learnmdfiles.blob.core.windows.net/files/image13.png)
 
  
 
@@ -81,15 +81,15 @@ Click the next button and select the required account to login. 
 
  
 
-![IMG_257](media/image14.png)
+![IMG_257](https://learnmdfiles.blob.core.windows.net/files/image14.png)
 
  
 
-![](media/image15.png)
+![](https://learnmdfiles.blob.core.windows.net/files/image15.png)
 
 After login, all available accounts will be listed. 
 
-![](media/image16.png)
+![](https://learnmdfiles.blob.core.windows.net/files/image16.png)
 
 5.  **Set az account**
 
@@ -97,7 +97,7 @@ Set the az account using the following command. 
 
 Example: az account set -s \<sid\> 
 
-![](media/image17.png)
+![](https://learnmdfiles.blob.core.windows.net/files/image17.png)
 
 6.  **Clone the repo**
 
@@ -105,7 +105,7 @@ Example: az account set -s \<sid\> 
 
     Example: git clone <https://github.com/pavithra-terawe/hpc_azfinsim2>
 
-    ![](media/image18.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image18.png)
 
 7.  **Give the Permission**
 
@@ -113,13 +113,13 @@ Example: az account set -s \<sid\> 
 
     ls -ltr
 
-    ![](media/image19.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image19.png)
 
 8.  **Move to Repo**
 
     Example: cd hpc_azfinsim2/
 
-    ![](media/image20.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image20.png)
 
 9.  **Requirement python package install**
 
@@ -127,13 +127,13 @@ Example: az account set -s \<sid\> 
 
     Example: pip install -r src/requirements.txt
 
-    ![](media/image21.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image21.png)
 
 10. **Move to Bin**
 
     Example: cd bin/
 
-    ![](media/image22.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image22.png)
 
 11. **Give the Permission**
 
@@ -141,7 +141,7 @@ Example: az account set -s \<sid\> 
 
     ls -ltr
 
-    ![](media/image23.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image23.png)
 
 12. **Deploy Function**
 
@@ -149,13 +149,13 @@ Example: az account set -s \<sid\> 
 
     Example: ./deploy.sh
 
-    ![](media/image24.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image24.png)
 
     While the deployment running, that will ask the approve. Enter yes to accept.
 
-    ![](media/image25.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image25.png)
 
-    ![](media/image26.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image26.png)
 
 13. **Inject function**
 
@@ -163,7 +163,7 @@ Example: az account set -s \<sid\> 
 
     Example: ./inject.sh
 
-    ![](media/image27.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image27.png)
 
 14. **Build function**
 
@@ -171,9 +171,9 @@ Example: az account set -s \<sid\> 
 
     Example: ./build.sh
 
-    ![](media/image28.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image28.png)
 
-    ![](media/image29.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image29.png)
 
 15. **Submit function**
 
@@ -189,29 +189,29 @@ Example: az account set -s \<sid\> 
 
     ls -ltr src
 
-    ![](media/image30.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image30.png)
 
     After that, move to the bin folder and run the submit script.
 
     Example: ./submit.sh
 
-    ![](media/image31.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image31.png)
 
     Output:
 
-    ![](media/image32.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image32.png)
 
     After the submit script is completed. You can see the jobs and pool in your deployed environment batch files.
 
->> ![](media/image33.png)
+>> ![](https://learnmdfiles.blob.core.windows.net/files/image33.png)
 
->> ![](media/image38.png)
+>> ![](https://learnmdfiles.blob.core.windows.net/files/image38.png)
 
 **Viewing Running Jobs(Optional)**
 
 Login into the "Batch Explorer" (download from the browser). If you click on the \"Jobs\" menu in the Batch Explorer UI, you\'ll see the three running jobs there:
 
-![](media/image37.png)
+![](https://learnmdfiles.blob.core.windows.net/files/image37.png)
 
 16. **Destroy function.**
 
@@ -219,15 +219,15 @@ Login into the "Batch Explorer" (download from the browser). If you click on the
 
     Example: ./destroy.sh
 
-    ![](media/image35.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image35.png)
 
     While the destroy running, that will ask the approval. Enter yes to accept.
 
-    ![](media/image36.png)
+    ![](https://learnmdfiles.blob.core.windows.net/files/image36.png)
 
 Output: All the resources are deleted in the resource group.
 
-![](media/image39.png)
+![](https://learnmdfiles.blob.core.windows.net/files/image39.png)
 
 # Next Steps 
 
