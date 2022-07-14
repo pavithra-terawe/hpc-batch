@@ -27,7 +27,7 @@ Zero to Batch Module
 
     After selecting the member click "Review + assign".
 
-    <img src="https://learnmdfiles.blob.core.windows.net/files/image5.png" width="50%"/>
+    <img src="https://learnmdfiles.blob.core.windows.net/files/image5.png" width="50%"/><br/>
 
     <img src="https://learnmdfiles.blob.core.windows.net/files/image6.png" width="50%"/>
 
@@ -55,7 +55,7 @@ Zero to Batch Module
 
     Example :ssh deployeradmin@52.149.120.180
 
-    <img src="https://learnmdfiles.blob.core.windows.net/files/image10.png" width="50%"/>
+    <img src="https://learnmdfiles.blob.core.windows.net/files/image10.png" width="50%"/><br/>
 
     <img src="https://learnmdfiles.blob.core.windows.net/files/image11.png" width="50%"/>
 
@@ -81,7 +81,7 @@ Click the next button and select the required account to login. 
 
  
 
-<img src="https://learnmdfiles.blob.core.windows.net/files/image14.png" width="50%"/>
+<img src="https://learnmdfiles.blob.core.windows.net/files/image14.png" width="50%"/><br/>
 
  
 
@@ -153,7 +153,7 @@ Example: az account set -s \<sid\> 
 
     While the deployment running, that will ask the approve. Enter yes to accept.
 
-    <img src="https://learnmdfiles.blob.core.windows.net/files/image25.png" width="50%"/>
+    <img src="https://learnmdfiles.blob.core.windows.net/files/image25.png" width="50%"/><br/>
 
     <img src="https://learnmdfiles.blob.core.windows.net/files/image26.png" width="50%"/>
 
@@ -171,7 +171,7 @@ Example: az account set -s \<sid\> 
 
     Example: ./build.sh
 
-    <img src="https://learnmdfiles.blob.core.windows.net/files/image28.png" width="50%"/>
+    <img src="https://learnmdfiles.blob.core.windows.net/files/image28.png" width="50%"/><br/>
 
     <img src="https://learnmdfiles.blob.core.windows.net/files/image29.png" width="50%"/>
 
@@ -203,7 +203,7 @@ Example: az account set -s \<sid\> 
 
     After the submit script is completed. You can see the jobs and pool in your deployed environment batch files.
 
->> <img src="https://learnmdfiles.blob.core.windows.net/files/image33.png" width="50%"/>
+>> <img src="https://learnmdfiles.blob.core.windows.net/files/image33.png" width="50%"/><br/>
 
 >> <img src="https://learnmdfiles.blob.core.windows.net/files/image38.png" width="50%"/>
 
