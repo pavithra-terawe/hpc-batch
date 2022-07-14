@@ -11,6 +11,7 @@ Zero to Batch Module
 
     In Azure Portal, Open the subscription IAM, Which is the subscription you use for installation.
 
+<img src="https://learnmdfiles.blob.core.windows.net/files/image1.png" width="50%"/>
     ![](https://learnmdfiles.blob.core.windows.net/files/image1.png)
 
     On that IAM page, select "**Add role assignment**" under the Add tab.
