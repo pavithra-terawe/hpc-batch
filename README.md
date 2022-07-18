@@ -53,3 +53,6 @@ Azure.](https://docs.microsoft.com/en-in/certifications/exams/dp-100)
 
 This learning path assumes knowledge of basic mathematical concepts.
 Some experience with Python is also beneficial.
+
+[Try](https://mx-research.azurewebsites.net/portal/deployment/subscription/a747cb6a-0362-4e03-9e90-36e2c05cf90c/resourcegroup/Research/deploymentname/DSModule1)
+
